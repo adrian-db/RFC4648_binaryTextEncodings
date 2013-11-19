@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBCBCA2D183B7AF40015896A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCBCA2C183B7AF40015896A /* Foundation.framework */; };
+		EBCBCA32183B7AF40015896A /* RFC4648_binaryTextEncodings.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EBCBCA31183B7AF40015896A /* RFC4648_binaryTextEncodings.h */; };
+		EBCBCA34183B7AF40015896A /* RFC4648_binaryTextEncodings.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCBCA33183B7AF40015896A /* RFC4648_binaryTextEncodings.m */; };
+		EBCBCA3B183B7AF40015896A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCBCA3A183B7AF40015896A /* XCTest.framework */; };
+		EBCBCA3C183B7AF40015896A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCBCA2C183B7AF40015896A /* Foundation.framework */; };
+		EBCBCA3E183B7AF40015896A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCBCA3D183B7AF40015896A /* UIKit.framework */; };
+		EBCBCA41183B7AF40015896A /* libRFC4648_binaryTextEncodings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCBCA29183B7AF40015896A /* libRFC4648_binaryTextEncodings.a */; };
+		EBCBCA47183B7AF40015896A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBCBCA45183B7AF40015896A /* InfoPlist.strings */; };
+		EBCBCA49183B7AF40015896A /* RFC4648_binaryTextEncodingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCBCA48183B7AF40015896A /* RFC4648_binaryTextEncodingsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBCBCA3F183B7AF40015896A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBCBCA21183B7AF40015896A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBCBCA28183B7AF40015896A;
+			remoteInfo = RFC4648_binaryTextEncodings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EBCBCA27183B7AF40015896A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				EBCBCA32183B7AF40015896A /* RFC4648_binaryTextEncodings.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EBCBCA29183B7AF40015896A /* libRFC4648_binaryTextEncodings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRFC4648_binaryTextEncodings.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBCBCA2C183B7AF40015896A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBCBCA30183B7AF40015896A /* RFC4648_binaryTextEncodings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RFC4648_binaryTextEncodings-Prefix.pch"; sourceTree = "<group>"; };
+		EBCBCA31183B7AF40015896A /* RFC4648_binaryTextEncodings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFC4648_binaryTextEncodings.h; sourceTree = "<group>"; };
+		EBCBCA33183B7AF40015896A /* RFC4648_binaryTextEncodings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFC4648_binaryTextEncodings.m; sourceTree = "<group>"; };
+		EBCBCA39183B7AF40015896A /* RFC4648_binaryTextEncodingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFC4648_binaryTextEncodingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBCBCA3A183B7AF40015896A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EBCBCA3D183B7AF40015896A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EBCBCA44183B7AF40015896A /* RFC4648_binaryTextEncodingsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RFC4648_binaryTextEncodingsTests-Info.plist"; sourceTree = "<group>"; };
+		EBCBCA46183B7AF40015896A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBCBCA48183B7AF40015896A /* RFC4648_binaryTextEncodingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFC4648_binaryTextEncodingsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBCBCA26183B7AF40015896A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCBCA2D183B7AF40015896A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCBCA36183B7AF40015896A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCBCA41183B7AF40015896A /* libRFC4648_binaryTextEncodings.a in Frameworks */,
+				EBCBCA3B183B7AF40015896A /* XCTest.framework in Frameworks */,
+				EBCBCA3E183B7AF40015896A /* UIKit.framework in Frameworks */,
+				EBCBCA3C183B7AF40015896A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBCBCA20183B7AF40015896A = {
+			isa = PBXGroup;
+			children = (
+				EBCBCA2E183B7AF40015896A /* RFC4648_binaryTextEncodings */,
+				EBCBCA42183B7AF40015896A /* RFC4648_binaryTextEncodingsTests */,
+				EBCBCA2B183B7AF40015896A /* Frameworks */,
+				EBCBCA2A183B7AF40015896A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBCBCA2A183B7AF40015896A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBCBCA29183B7AF40015896A /* libRFC4648_binaryTextEncodings.a */,
+				EBCBCA39183B7AF40015896A /* RFC4648_binaryTextEncodingsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBCBCA2B183B7AF40015896A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBCBCA2C183B7AF40015896A /* Foundation.framework */,
+				EBCBCA3A183B7AF40015896A /* XCTest.framework */,
+				EBCBCA3D183B7AF40015896A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBCBCA2E183B7AF40015896A /* RFC4648_binaryTextEncodings */ = {
+			isa = PBXGroup;
+			children = (
+				EBCBCA31183B7AF40015896A /* RFC4648_binaryTextEncodings.h */,
+				EBCBCA33183B7AF40015896A /* RFC4648_binaryTextEncodings.m */,
+				EBCBCA2F183B7AF40015896A /* Supporting Files */,
+			);
+			path = RFC4648_binaryTextEncodings;
+			sourceTree = "<group>";
+		};
+		EBCBCA2F183B7AF40015896A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBCBCA30183B7AF40015896A /* RFC4648_binaryTextEncodings-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBCBCA42183B7AF40015896A /* RFC4648_binaryTextEncodingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBCBCA48183B7AF40015896A /* RFC4648_binaryTextEncodingsTests.m */,
+				EBCBCA43183B7AF40015896A /* Supporting Files */,
+			);
+			path = RFC4648_binaryTextEncodingsTests;
+			sourceTree = "<group>";
+		};
+		EBCBCA43183B7AF40015896A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBCBCA44183B7AF40015896A /* RFC4648_binaryTextEncodingsTests-Info.plist */,
+				EBCBCA45183B7AF40015896A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBCBCA28183B7AF40015896A /* RFC4648_binaryTextEncodings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBCBCA4C183B7AF40015896A /* Build configuration list for PBXNativeTarget "RFC4648_binaryTextEncodings" */;
+			buildPhases = (
+				EBCBCA25183B7AF40015896A /* Sources */,
+				EBCBCA26183B7AF40015896A /* Frameworks */,
+				EBCBCA27183B7AF40015896A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFC4648_binaryTextEncodings;
+			productName = RFC4648_binaryTextEncodings;
+			productReference = EBCBCA29183B7AF40015896A /* libRFC4648_binaryTextEncodings.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EBCBCA38183B7AF40015896A /* RFC4648_binaryTextEncodingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBCBCA4F183B7AF40015896A /* Build configuration list for PBXNativeTarget "RFC4648_binaryTextEncodingsTests" */;
+			buildPhases = (
+				EBCBCA35183B7AF40015896A /* Sources */,
+				EBCBCA36183B7AF40015896A /* Frameworks */,
+				EBCBCA37183B7AF40015896A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBCBCA40183B7AF40015896A /* PBXTargetDependency */,
+			);
+			name = RFC4648_binaryTextEncodingsTests;
+			productName = RFC4648_binaryTextEncodingsTests;
+			productReference = EBCBCA39183B7AF40015896A /* RFC4648_binaryTextEncodingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBCBCA21183B7AF40015896A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Adrian Bigland";
+			};
+			buildConfigurationList = EBCBCA24183B7AF40015896A /* Build configuration list for PBXProject "RFC4648_binaryTextEncodings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EBCBCA20183B7AF40015896A;
+			productRefGroup = EBCBCA2A183B7AF40015896A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBCBCA28183B7AF40015896A /* RFC4648_binaryTextEncodings */,
+				EBCBCA38183B7AF40015896A /* RFC4648_binaryTextEncodingsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBCBCA37183B7AF40015896A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCBCA47183B7AF40015896A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBCBCA25183B7AF40015896A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCBCA34183B7AF40015896A /* RFC4648_binaryTextEncodings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCBCA35183B7AF40015896A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCBCA49183B7AF40015896A /* RFC4648_binaryTextEncodingsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBCBCA40183B7AF40015896A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBCBCA28183B7AF40015896A /* RFC4648_binaryTextEncodings */;
+			targetProxy = EBCBCA3F183B7AF40015896A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBCBCA45183B7AF40015896A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBCBCA46183B7AF40015896A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBCBCA4A183B7AF40015896A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBCBCA4B183B7AF40015896A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBCBCA4D183B7AF40015896A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RFC4648_binaryTextEncodings.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RFC4648_binaryTextEncodings/RFC4648_binaryTextEncodings-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EBCBCA4E183B7AF40015896A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RFC4648_binaryTextEncodings.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RFC4648_binaryTextEncodings/RFC4648_binaryTextEncodings-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EBCBCA50183B7AF40015896A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RFC4648_binaryTextEncodings/RFC4648_binaryTextEncodings-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RFC4648_binaryTextEncodingsTests/RFC4648_binaryTextEncodingsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EBCBCA51183B7AF40015896A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RFC4648_binaryTextEncodings/RFC4648_binaryTextEncodings-Prefix.pch";
+				INFOPLIST_FILE = "RFC4648_binaryTextEncodingsTests/RFC4648_binaryTextEncodingsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBCBCA24183B7AF40015896A /* Build configuration list for PBXProject "RFC4648_binaryTextEncodings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBCBCA4A183B7AF40015896A /* Debug */,
+				EBCBCA4B183B7AF40015896A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBCBCA4C183B7AF40015896A /* Build configuration list for PBXNativeTarget "RFC4648_binaryTextEncodings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBCBCA4D183B7AF40015896A /* Debug */,
+				EBCBCA4E183B7AF40015896A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBCBCA4F183B7AF40015896A /* Build configuration list for PBXNativeTarget "RFC4648_binaryTextEncodingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBCBCA50183B7AF40015896A /* Debug */,
+				EBCBCA51183B7AF40015896A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBCBCA21183B7AF40015896A /* Project object */;
+}
