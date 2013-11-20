@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		EBCBCA2D183B7AF40015896A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCBCA2C183B7AF40015896A /* Foundation.framework */; };
-		EBCBCA32183B7AF40015896A /* RFC4648_binaryTextEncodings.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EBCBCA31183B7AF40015896A /* RFC4648_binaryTextEncodings.h */; };
-		EBCBCA34183B7AF40015896A /* RFC4648_binaryTextEncodings.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCBCA33183B7AF40015896A /* RFC4648_binaryTextEncodings.m */; };
 		EBCBCA3B183B7AF40015896A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCBCA3A183B7AF40015896A /* XCTest.framework */; };
 		EBCBCA3C183B7AF40015896A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCBCA2C183B7AF40015896A /* Foundation.framework */; };
 		EBCBCA3E183B7AF40015896A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCBCA3D183B7AF40015896A /* UIKit.framework */; };
 		EBCBCA41183B7AF40015896A /* libRFC4648_binaryTextEncodings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCBCA29183B7AF40015896A /* libRFC4648_binaryTextEncodings.a */; };
 		EBCBCA47183B7AF40015896A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBCBCA45183B7AF40015896A /* InfoPlist.strings */; };
 		EBCBCA49183B7AF40015896A /* RFC4648_binaryTextEncodingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCBCA48183B7AF40015896A /* RFC4648_binaryTextEncodingsTests.m */; };
+		EBCBCA54183B7B1D0015896A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCBCA53183B7B1D0015896A /* NSData+Base64.m */; };
+		EBCBCA55183B8C820015896A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCBCA53183B7B1D0015896A /* NSData+Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				EBCBCA32183B7AF40015896A /* RFC4648_binaryTextEncodings.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,14 +44,14 @@
 		EBCBCA29183B7AF40015896A /* libRFC4648_binaryTextEncodings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRFC4648_binaryTextEncodings.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBCBCA2C183B7AF40015896A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EBCBCA30183B7AF40015896A /* RFC4648_binaryTextEncodings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RFC4648_binaryTextEncodings-Prefix.pch"; sourceTree = "<group>"; };
-		EBCBCA31183B7AF40015896A /* RFC4648_binaryTextEncodings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFC4648_binaryTextEncodings.h; sourceTree = "<group>"; };
-		EBCBCA33183B7AF40015896A /* RFC4648_binaryTextEncodings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFC4648_binaryTextEncodings.m; sourceTree = "<group>"; };
 		EBCBCA39183B7AF40015896A /* RFC4648_binaryTextEncodingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFC4648_binaryTextEncodingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBCBCA3A183B7AF40015896A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EBCBCA3D183B7AF40015896A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EBCBCA44183B7AF40015896A /* RFC4648_binaryTextEncodingsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RFC4648_binaryTextEncodingsTests-Info.plist"; sourceTree = "<group>"; };
 		EBCBCA46183B7AF40015896A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EBCBCA48183B7AF40015896A /* RFC4648_binaryTextEncodingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFC4648_binaryTextEncodingsTests.m; sourceTree = "<group>"; };
+		EBCBCA52183B7B1D0015896A /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		EBCBCA53183B7B1D0015896A /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +109,9 @@
 		EBCBCA2E183B7AF40015896A /* RFC4648_binaryTextEncodings */ = {
 			isa = PBXGroup;
 			children = (
-				EBCBCA31183B7AF40015896A /* RFC4648_binaryTextEncodings.h */,
-				EBCBCA33183B7AF40015896A /* RFC4648_binaryTextEncodings.m */,
 				EBCBCA2F183B7AF40015896A /* Supporting Files */,
+				EBCBCA52183B7B1D0015896A /* NSData+Base64.h */,
+				EBCBCA53183B7B1D0015896A /* NSData+Base64.m */,
 			);
 			path = RFC4648_binaryTextEncodings;
 			sourceTree = "<group>";
@@ -224,7 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBCBCA34183B7AF40015896A /* RFC4648_binaryTextEncodings.m in Sources */,
+				EBCBCA54183B7B1D0015896A /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBCBCA55183B8C820015896A /* NSData+Base64.m in Sources */,
 				EBCBCA49183B7AF40015896A /* RFC4648_binaryTextEncodingsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
