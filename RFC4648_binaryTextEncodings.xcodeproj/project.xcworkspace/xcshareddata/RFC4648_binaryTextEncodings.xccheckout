@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2F45971C-D08A-4980-BA03-A42079EEAF0A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RFC4648_binaryTextEncodings</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7053118C4680039436F2B59978EF20D770BEED58</key>
+		<string>https://github.com/adrian-db/RFC4648_binaryTextEncodings.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RFC4648_binaryTextEncodings.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7053118C4680039436F2B59978EF20D770BEED58</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/adrian-db/RFC4648_binaryTextEncodings.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7053118C4680039436F2B59978EF20D770BEED58</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7053118C4680039436F2B59978EF20D770BEED58</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RFC4648_binaryTextEncodings</string>
+		</dict>
+	</array>
+</dict>
+</plist>
